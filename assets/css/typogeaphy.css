@@ -1,0 +1,81 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* Colors */
+    --primary-color: linear-gradient(124.58deg, #FEAB36 -0.72%, #F8536A 100%);
+    --secondary-color:#111827;
+    --background-color:#F7F8F9;
+    --heading-color: #000000;
+    --paragraph-color: #777777;
+    --hover-color:#F8536A;
+    --btn-hover-color:linear-gradient(301.71deg, #FEAB36 4.87%, #F8536A 92.21%);
+
+
+    /* Font Family */
+    --heading-font: "Jost", sans-serif;
+    --body-font: "Mulish", sans-serif;
+
+    /* Text Sizes */
+    --title-para: 22px;
+    --sub-title-para:20px;
+    --main-para: 18px;
+    --mobile-title:24px;
+    --mobile-title-p: 16px;
+    --mobile-sub-p: 14px;
+
+    /* Line Height */
+    --line-height: 24px;
+}
+
+/* Headings */
+h1 { font-size: 56px; }
+h2 { font-size: 48px; }
+h3 { font-size: 32px; }
+h4 { font-size: 24px; }
+h5 { font-size: 20px; }
+h6 { font-size: 18px; }
+a  { font-size: 16px; }
+
+/* Responsive Typography */
+@media (max-width: 786px) {
+    h1 {
+        font-size: 40px;
+    }
+    h2 {
+        font-size: 32px;
+    }
+    h3 {
+        font-size: 28px;
+    }
+    h4 {
+        font-size: 24px;
+    }
+}
+@media (max-width: 767px) {
+    body {
+        font-size: 15px;
+    }
+    h1 {
+        font-size: 34px;
+    }
+    h2 {
+        font-size: 28px;
+    }
+    h3 {
+        font-size: 24px;
+    }
+    h4 {
+        font-size: 20px;
+    }
+    h5 {
+        font-size: 18px;
+    }
+    h6 {
+        font-size: 16px;
+    }
+}
