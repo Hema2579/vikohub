@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    const elements = document.querySelectorAll("h1,h2,h3,h4,h5,h6,p,a,ul,li,span,button,input,textarea,.contact-item img, .service-icon img, .office-icon img, .iax-card-icon img, .campus-card-icon img, .location-icon img");
+    const elements = document.querySelectorAll("h1,h2,h3,h4,h5,h6,p,a,ul,li,span,button,input,textarea");
     const observer = new IntersectionObserver(function (entries) {
         entries.forEach(function (entry) {
             if (entry.isIntersecting) {
